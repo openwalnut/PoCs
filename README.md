@@ -17,7 +17,7 @@ Please use this script responsibly and ethically, and respect the privacy and se
 1. Clone the repository:
 
     ```bash
-    git clone [https://github.com/your-username/your-repository.git](https://github.com/openwalnut/apache-ofbiz-hash-cracker.git)
+    git clone https://github.com/openwalnut/apache-ofbiz-hash-cracker.git
     cd apache-ofbiz-hash-cracker
     ```
 

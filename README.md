@@ -4,6 +4,12 @@ This script is a simple utility for hashing passwords and searching for specific
 
 The script is based on the original Apache Offbiz [java code](https://github.com/apache/ofbiz/blob/trunk/framework/base/src/main/java/org/apache/ofbiz/base/crypto/HashCrypt.java).
 
+Ofbiz first encrypts hashes using the following format: {SHA}47b56994cbc2b6d10aa1be30f70165adb305a41a. 
+
+Via HashCrypt.java it then turns these into a different format as such: $SHA1$d$bTMXfIdaCZk4d4ZYDvcgD0KKkG8=
+
+Attempting to use hashcat for that unfortunately does not work, however this script solves that problem.
+
 ## Disclaimer 
 
 This script is provided for educational purposes only. It is intended for learning and understanding
